@@ -40,9 +40,11 @@
   <div class="product-wrapper">
     <div class="product-container">
       <div class="left-side">
-        <img srcset="./images/image-product-desktop.jpg 1440w, ./images/image-product-mobile.jpg 375w"
-          sizes="(max-width: 600px) 200px, 800px" class="product-image" src="./images/image-product-desktop.jpg"
-          alt="perfume bottle" />
+        <picture>
+          <source media="(max-width:374px)" srcset="./images/image-product-mobile.jpg">
+          <source media="(min-width:375px)" srcset="./images/image-product-desktop.jpg">
+          <img class="product-image" src="./images/image-product-desktop.jpg" alt="perfume bottle" />
+      </picture>
       </div>
       <div class="right-side">
         <div class="text-wrapper">

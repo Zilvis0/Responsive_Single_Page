@@ -1,0 +1,116 @@
+body {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.product-wrapper {
+    width: 90%;
+    margin: 20px;
+    padding: 20px;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.product-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 610px;
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    margin: 10vh auto;
+}
+
+@media (min-width:600px) {
+    .product-container {
+        width: 100vw;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+.product-image {
+    border-radius: 15px 0 0 15px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    padding: 20px;
+    margin: 5px;
+}
+
+.text-wrapper h1 {
+    font-weight: 800;
+}
+
+.text-wrapper h3 {
+    font-size: small;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: hsl(228, 12%, 48%);
+}
+
+.text-wrapper p {
+    color: hsl(228, 12%, 48%);
+    line-height: 20px;
+}
+
+.price {
+    font-family: 'Fraunces', serif;
+    display: flex;
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    color: hsl(158, 36%, 37%);
+}
+
+.price__current {
+    font-weight: 800;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.price__previous {
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    width: 80%;
+    height: 50px;
+    transition: all .2s ease-in-out;
+}
+
+button {
+    font-weight: 800;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+}
+
+.button:hover {
+    transform: scale(1.1);
+}

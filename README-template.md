@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Zilvis0/Responsive_Single_Page/)
+- Solution URL: [GitHub](https://github.com/Zilvis0/Responsive_Single_Page/)
 
 ## My process
 
